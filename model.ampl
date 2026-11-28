@@ -72,3 +72,4 @@ subject to parcelle_est_exploitee2 {p in PARCELLES}:
     heures_parcelle[p] >= est_exploitee[p];
 
 # Q5 : set {p in PARCELLES: est_exploitee[p] == 1}  := A E F G I J L;
+# Q6 : traverser des parcelles non exploitees : D, B, C, H, K
