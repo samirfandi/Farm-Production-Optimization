@@ -1,0 +1,7 @@
+option solver gurobi;
+
+solve;
+
+display benefice;
+display heures_parcelle;
+display est_exploitee;
